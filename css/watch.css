@@ -1,0 +1,80 @@
+
+#top-menu .bg-light{
+    background-color: #fff!important;
+}
+
+#top-menu .vido-icon{
+    background-color: #bf40bf;
+    color: #fff;
+    border-radius: 15%;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.navbar-link{
+    background-color: #bf40bf;
+    color: #fff;
+}
+
+button{
+    background-color: transparent!important;
+    color: #bf40bf!important;
+    border-color: #bf40bf!important;
+}
+
+button:hover{
+    background-color: #bf40bf!important;
+    color: #fff!important;
+    
+}
+
+.navbar .login{
+    color: #bf40bf;
+}
+
+.modal .modal-header .class{
+    color: #bf40bf!important;
+    background-color: transparent!important;
+}
+
+input .form-control:focus,
+    button:focus{
+        box-shadow:none!important;
+    
+}
+
+.card .card-icons{
+  position: relative;
+}
+
+time{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 3px;
+}
+
+.card .fa-play{
+    position: absolute;
+    top:44%;
+    right:45% ;
+    color: #2c3131;
+    display: none;
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover{
+    transform: translateY(-.9%);
+}
+
+.card{
+    transition: transform .5s;
+}
+@media(max-width:760px) and (max-width:773px){
+    .img-rounded{
+        width: 50px!important;
+        height: 50px!important;
+    }
+}
